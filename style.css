@@ -1,0 +1,112 @@
+body {
+    background-image: url("images/tablecloth.gif");
+}
+main {
+    background:#fff;
+}
+nav {
+    background: #ff3300;
+    display: flex;
+}
+nav a {
+    text-decoration: none;
+    color: #000;
+    flex: 1;
+    padding: 5px;
+    text-align:center;
+    padding: 2%;
+}
+ul{
+    list-style-image: url("images/pizza_icon.gif");
+    margin-left: 5%;
+}
+.bigbox {
+    width: 80%;
+    border:2px solid #000;
+    margin:0 auto;
+    background: #fff;
+}
+.banner img {
+    width: 100%;
+}
+#contact-banner{
+    margin-left: 5%;
+}
+h1 {
+    margin:0%;
+    text-align: center;
+}
+p {
+    margin: 2%;
+}
+.pizza-coup{
+    text-align: center;
+    color: #d91c14;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.party-bread {
+    display: flex;
+}
+.pecorino-romano {
+    flex: 1;
+    border: 1px solid #000;
+    width: 100%;
+    height: auto;
+    margin: 5%;
+}
+.packagename{
+    color: #FF4619; /*Light Orange*/
+    font-style: italic;
+    margin-bottom: 0;
+}
+.party-menu-items{
+    margin: 0;
+    flex: 3;
+}
+.party-menu-items p{
+    margin: 0 2%;
+}
+.discount {
+    text-align: center;
+}
+.online-deals{
+    text-align: center;
+}
+.one-top{
+    border: 2px dashed #000;
+    margin: 2% 20% 5% 20%;
+    background: #f2ba33;
+}
+.specialty{
+    border: 2px dashed #000;
+    margin: 5% 20% 2% 20%;
+    background: #ffff99;
+}
+#map {
+    width:60%;
+    margin: 0 20%;
+}
+#pizza-color-page {
+    width: 20%;
+    margin: 0 40%;
+}
+.party-menu {
+margin: 0;
+}
+footer {
+    display: flex;
+    background: #000;
+    color: #c39424;
+}
+.tp-left {
+    text-align: right;
+    flex: 8;
+}
+#tinypizza {
+    flex: 1;
+}
+.tp-right {
+    text-align: left;
+    flex: 8;
+}
